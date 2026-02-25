@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Research_FTPServer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="FTP Server" Height="500" Width="800" Loaded="Window_Loaded" Background="#FF2F2F2F">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Left" Width="300">
+            
+        </DockPanel>
+        <Border DockPanel.Dock="Left"/>
+
+        <DockPanel DockPanel.Dock="Left"/>
+    </DockPanel>
 </Window>
